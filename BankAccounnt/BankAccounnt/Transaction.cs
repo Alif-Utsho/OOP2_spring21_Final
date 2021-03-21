@@ -25,13 +25,14 @@ namespace BankAccounnt
 
         public void showTransactions()
         {
-            Console.WriteLine("Transaction type: " + AdditionalInfo);
+            Console.Write("Transaction type: {0}\t ", AdditionalInfo);
+            Console.Write("Amount: " + Amount);
             if (AdditionalInfo.ToLower().Equals("transfer"))
             {
-                Console.WriteLine("Sender: " + sender);
-                Console.WriteLine("Receiver: " + receiver);
+                //Console.WriteLine("\tSender: {0}({1})", sender.AccName, sender.AccNo);
+                Console.Write("\t To: {0}({1})", receiver.AccName, receiver.AccNo);
             }
-            Console.Write("Amount: " + Amount);
+            Console.WriteLine();
         }
         
     }

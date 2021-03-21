@@ -23,6 +23,8 @@ namespace BankAccounnt
             if(today-openingYear > fixedYear)
             {
                 Balance -= amount;
+                Transaction tr = new Transaction(this, this, amount, "Withdraw");
+                base.addTransaction(tr);
             }
             else
             {
@@ -37,6 +39,8 @@ namespace BankAccounnt
             {
                 Balance -= amount;
                 acc.Balance += amount;
+                Transaction tr = new Transaction(this, acc, amount, "Transfer");
+                base.addTransaction(tr);
             }
             else
             {

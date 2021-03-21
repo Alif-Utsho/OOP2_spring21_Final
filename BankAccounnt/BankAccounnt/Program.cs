@@ -22,16 +22,19 @@ namespace BankAccounnt
             overdraft.Transfer(ss, 5000);
             overdraft.Deposit(10000);
             overdraft.ShowInfo();
+            overdraft.showAllTransaction();
 
             Customer customer = new Customer("Alif Uthso");
 
-            overdraft.showAllTransaction();
+            utsho.Deposit(10000);
+            utsho.Transfer(alif, 5000);
+            utsho.showAllTransaction();
 
-            //alif.ShowInfo();
-            //alif.Deposit(2000f);
-            //alif.ShowInfo();
-            //alif.Withdraw(3000);
-            //alif.ShowInfo();
+            alif.ShowInfo();
+            alif.Deposit(2000f);
+            alif.Transfer(utsho, 4000);
+            alif.Withdraw(3000);
+            alif.showAllTransaction();
 
             //rakib.Deposit(5000);
             //rakib.Withdraw(1000);

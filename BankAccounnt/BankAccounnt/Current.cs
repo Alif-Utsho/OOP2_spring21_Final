@@ -16,6 +16,8 @@ namespace BankAccounnt
             {
                 Balance -= amount;
                 Console.WriteLine("Your account debited by {0} to self", amount);
+                Transaction tr = new Transaction(this, this, amount, "Withdraw");
+                base.addTransaction(tr);
             }
             else
             {
@@ -29,6 +31,8 @@ namespace BankAccounnt
             {
                 Balance -= amount;
                 acc.Balance += amount;
+                Transaction tr = new Transaction(this, acc, amount, "Transfer");
+                base.addTransaction(tr);
                 Console.WriteLine("your account transfer by {0} to the account {1}({2})", amount, acc.AccName, acc.AccNo);
             }
             else

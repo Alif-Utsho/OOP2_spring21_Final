@@ -30,9 +30,9 @@ namespace BankAccounnt
             transactions[transactionCount++] = new Transaction(this, this, amount, "Deposit");
         }
 
-        public void addTransaction(Account sender, Account receiver, double amount)
+        public void addTransaction(params Transaction[] transactionArr)
         {
-            foreach (Transaction transaction in transactions)
+            foreach (Transaction transaction in transactionArr)
             {
                 this.transactions[transactionCount++] = transaction;
             }
@@ -40,10 +40,11 @@ namespace BankAccounnt
 
         public void showAllTransaction()
         {
-            Console.WriteLine("Transaction history ");
+            Console.WriteLine("\nTransaction history ({0})", AccName);
 
             for (int i = 0; i < transactionCount; i++)
             {
+                Console.Write(i+1 + ". ");
                 transactions[i].showTransactions();
             }
         }

@@ -19,6 +19,8 @@ namespace BankAccounnt
             if(amount <= Balance-(openingAmount * 20 / 100))
             {
                 Balance -= amount;
+                Transaction tr = new Transaction(this, this, amount, "Withdraw");
+                base.addTransaction(tr);
             }
             else
             {
@@ -32,6 +34,8 @@ namespace BankAccounnt
             {
                 Balance -= amount;
                 acc.Balance += amount;
+                Transaction tr = new Transaction(this, acc, amount, "Transfer");
+                base.addTransaction(tr);
             }
             else
             {
