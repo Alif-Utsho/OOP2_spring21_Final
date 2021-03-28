@@ -20,12 +20,6 @@ namespace Test_Interface_2
             this.balance = balance;
         }
 
-        //public virtual void Deposit(int amount)
-        //{
-
-        //}
-        
-
         public void showInfo()
         {
             Console.WriteLine("Account name: " + AccName);
