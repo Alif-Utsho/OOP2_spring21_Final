@@ -1,0 +1,7 @@
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\bin\Debug\University.exe.config
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\bin\Debug\University.exe
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\bin\Debug\University.pdb
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\obj\Debug\University.csprojAssemblyReference.cache
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\obj\Debug\University.csproj.CoreCompileInputs.cache
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\obj\Debug\University.exe
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\University\University\obj\Debug\University.pdb
