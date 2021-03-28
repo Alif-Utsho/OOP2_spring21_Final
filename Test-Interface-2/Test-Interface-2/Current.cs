@@ -14,12 +14,12 @@ namespace Test_Interface_2
         {
         }
 
-        public void Deposit(int amount)
+        public override void Deposit(int amount)
         {
             balance+=amount;
         }
 
-        public void Withdraw(int amount)
+        public override void Withdraw(int amount)
         {
             if (amount < balance)
             {

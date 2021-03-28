@@ -12,8 +12,8 @@ namespace Test_Interface_2
         {
             Account acc1 = new Current("Alif", "1234", 5000);
             acc1.showInfo();
-            //acc1.Deposit(2000);
-            
+            acc1.Deposit(2000);            
+            acc1.showInfo();
 
         }
     }

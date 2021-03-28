@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Test_Interface_2.Interface;
 
 namespace Test_Interface_2
 {
-    class Account
+    abstract class Account : BasicBankingInterface
     {
         public string AccName { get; set; }
         public string AccNo { get; set; }
@@ -19,6 +20,11 @@ namespace Test_Interface_2
             this.balance = balance;
         }
 
+        //public virtual void Deposit(int amount)
+        //{
+
+        //}
+        
 
         public void showInfo()
         {
@@ -26,5 +32,8 @@ namespace Test_Interface_2
             Console.WriteLine("Account no: " + AccNo);
             Console.WriteLine("Balance: " + balance);
         }
+
+        public abstract void Deposit(int amount);
+        public abstract void Withdraw(int amount);
     }
 }

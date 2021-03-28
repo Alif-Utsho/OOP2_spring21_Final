@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Test_Interface_2.Interface;
+
 namespace Test_Interface_2
 {
     class Savings : Account, BasicBankingInterface
@@ -13,12 +14,12 @@ namespace Test_Interface_2
         {
         }
 
-        public void Deposit(int amount)
+        public override void Deposit(int amount)
         {
             balance+=amount;
         }
 
-        public void Withdraw(int amount)
+        public override void Withdraw(int amount)
         {
             if (amount < balance-balance*20/100)
             {
