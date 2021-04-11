@@ -1,0 +1,10 @@
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\bin\Debug\DB_GUI.exe.config
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\bin\Debug\DB_GUI.exe
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\bin\Debug\DB_GUI.pdb
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.csprojAssemblyReference.cache
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.Form1.resources
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.Properties.Resources.resources
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.csproj.GenerateResource.cache
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.csproj.CoreCompileInputs.cache
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.exe
+E:\Educational Object\Academic\8th Semester\OBJECT ORIENTED PROGRAMMING 2 [H]\OOP2_codes_Final\DB_GUI\DB_GUI\obj\Debug\DB_GUI.pdb
